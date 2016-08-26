@@ -3,3 +3,10 @@
 ################################################################################
 
 /BlizzardApi/bin/Debug
+/PrioBar/bin/Debug
+/PrioBar/obj/Debug
+*.user
+*.suo
+/BlizzardApi/obj/Debug
+/PrioBar.CsLuaTrigger/bin/Debug
+/PrioBar.CsLuaTrigger/obj/Debug

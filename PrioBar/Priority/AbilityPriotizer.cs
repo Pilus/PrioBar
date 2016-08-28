@@ -19,7 +19,7 @@
 
         private readonly PredictorBase[] predictors;
 
-        private QueueObject[] queueObjects = { };
+        private QueueObject[] queueObjects = new QueueObject[] { };
 
         public AbilityPriotizer(Func<AbilityPrioInfo, int, PriotizedAbility> priotizedAbilityFactory, PredictorBase[] predictors, GameInfoFactory gameInfoFactory)
         {

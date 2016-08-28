@@ -41,13 +41,13 @@
         {
             priotizer.Add(new AbilityPrioInfo()
             {
-                SpellName = "Fire Blast",
-                Requirements = new []{ new RequirementInfo() { Type = RequirementType.Buff, Value1 = "Heating Up"} }
+                SpellName = "Pyroblast",
+                Requirements = new[] { new RequirementInfo() { Type = RequirementType.Buff, Value1 = "Hot Streak!" } }
             });
             priotizer.Add(new AbilityPrioInfo()
             {
-                SpellName = "Pyroblast",
-                Requirements = new[] { new RequirementInfo() { Type = RequirementType.Buff, Value1 = "Hot Streak!" } }
+                SpellName = "Fire Blast",
+                Requirements = new []{ new RequirementInfo() { Type = RequirementType.Buff, Value1 = "Heating Up"} }
             });
             priotizer.Add(new AbilityPrioInfo()
             {
